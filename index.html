@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add || product</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="all-product-section"><h1>all product</h1></div>
+    </header>
+    <main>
+      <div id="products"></div>
+    </main>
+
+    <div class="delet-alert-container" id="delet-container">
+      <div class="alert-delet">
+        <h1>attention!</h1>
+        <p>Do you want to delet this product?</p>
+        <div class="btns">
+        <button style="right: 50px !important;" onclick="Nobtnhandle()">no</button><button onclick="Yesbtnhandle()">yes</button>  
+        </div>  
+      </div>
+    </div>
+
+    <button id="next-page">
+      <a
+        href="add-product.html"
+        style="
+          text-decoration: none;
+          color: #fff;
+          font-size: 15px;
+          font-weight: 700;
+        "
+        >add product item</a
+      >
+    </button>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2024 تمامی حقوق محفوظ است.</p>
+        <ul class="footer-links">
+          <li><a href="#">درباره ما</a></li>
+          <li><a href="#">تماس با ما</a></li>
+          <li><a href="#">سیاست حریم خصوصی</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
